@@ -1,0 +1,39 @@
+{
+  "projects": [
+    {
+      "name": "My Project",
+      "id": "1",
+      "description": "My Project Description",
+      "image": "https://i.imgur.com/l9sQnXw.jpg",
+      "src": "https://my-project.com"
+    },
+    {
+      "name": "My Project 2",
+      "id": "2",
+      "description": "My Project 2 Description",
+      "image": "./../assets/testImage.jpeg ",
+      "src": "https://my-project-2.com"
+    },
+    {
+      "name": "My Project 3",
+      "id": "3",
+      "description": "My Project 3 Description",
+      "image": "",
+      "src": "https://my-project-3.com"
+    },
+    {
+      "name": "My Project 3",
+      "id": "3",
+      "description": "My Project 3 Description",
+      "image": "",
+      "src": "https://my-project-3.com"
+    },
+    {
+      "name": "My Project 3",
+      "id": "3",
+      "description": "My Project 3 Description",
+      "image": "",
+      "src": "https://my-project-3.com"
+    }
+  ]
+}
