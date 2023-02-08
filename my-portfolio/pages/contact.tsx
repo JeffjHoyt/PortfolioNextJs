@@ -4,6 +4,7 @@ import Link from "next/link";
 import { Inter } from "@next/font/google";
 import Script from "next/script";
 import Head from "next/head";
+import Contact from "../components/Contact";
 
 const contact = () => {
   return (
@@ -28,7 +29,7 @@ const contact = () => {
       <Container>
         <Row>
           <Col>
-            <h1>Contact Me</h1>
+            <Contact />
           </Col>
         </Row>
       </Container>

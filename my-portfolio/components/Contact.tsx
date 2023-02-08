@@ -24,7 +24,7 @@ const Contact = () => {
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossOrigin="anonymous"
       />
-      <Container>
+      <Container style={{ marginTop: "100px" }}>
         <Row>
           <Col>
             <h1>Contact me</h1>

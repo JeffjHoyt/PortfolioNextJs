@@ -9,19 +9,25 @@ const Projects = () => {
   const projectData = data.projects;
   const projectsList = Object.keys(projectData).map((project) => {
     const projectValue = projectData[project];
+
     return (
       <Card
+        as="a"
+        onClick={() => window.open(projectValue.src, "_blank")}
         style={{
           paddingTop: "0",
           width: "330px",
           overflowX: "hidden",
           overflowY: "hidden",
           backgroundColor: "white",
+          maxWidth: "330px",
+          cursor: "pointer",
         }}
       >
         <Card.Img
           variant="top"
           src={projectValue.image}
+          alt={projectValue.alt}
           style={{ marginTop: "0", overflow: "hidden" }}
         />
         <div>

@@ -8,7 +8,18 @@ export default function App({ Component, pageProps }: AppProps) {
     <Container fluid>
       <Row>
         <Col>
-          <Navbar bg="dark" variant="dark" className="navBar">
+          <Navbar
+            bg="dark"
+            variant="dark"
+            className="navBar"
+            style={{
+              position: "fixed",
+              top: "0",
+              width: "100%",
+              zIndex: "100",
+              marginBottom: "60px",
+            }}
+          >
             <Container>
               <Nav className="me-auto">
                 <Nav.Link href="">

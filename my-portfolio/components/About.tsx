@@ -25,7 +25,7 @@ const About = () => {
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossOrigin="anonymous"
       />
-      <Container className="aboutMe">
+      <Container className="aboutMe" style={{ marginTop: "100px" }}>
         <Row>
           <Col>
             <img
