@@ -5,7 +5,7 @@ import { Inter } from "@next/font/google";
 import Script from "next/script";
 import Head from "next/head";
 import Contact from "../components/Contact";
-//
+// edit again
 
 const contact = () => {
   return (
