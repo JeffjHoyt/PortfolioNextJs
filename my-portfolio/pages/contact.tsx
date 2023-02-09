@@ -7,6 +7,7 @@ import Head from "next/head";
 import Contact from "../components/Contact";
 // edit again
 
+
 const contact = () => {
   return (
     <>
