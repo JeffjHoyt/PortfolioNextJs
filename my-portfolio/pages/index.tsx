@@ -32,22 +32,10 @@ export default function Home() {
         crossOrigin="anonymous"
       />
 
-      <Container>
-        <Row>
-          <Col>
-            <About />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Projects />
-          </Col>
-        </Row>
-        <Row>
-          <Col>
-            <Contact />
-          </Col>
-        </Row>
+      <Container fluid className="noPadding">
+        <About />
+        <Projects />
+        <Contact />
       </Container>
     </>
   );

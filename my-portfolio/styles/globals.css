@@ -77,6 +77,14 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  --bs-gutter-x: 0 !important;
+}
+
+.container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  margin-right: 0 !important;
+  margin-left: 0 !important;
 }
 
 html,
@@ -100,11 +108,11 @@ a {
   text-decoration: none;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
-}
+} */
 
 .profilePicture {
   min-width: 330px;
@@ -114,10 +122,32 @@ a {
   margin-bottom: 20px;
 }
 
-.aboutMe {
-  margin-bottom: 10vh;
-}
-
 .aboutMeDescription {
   min-width: 330px;
+}
+
+#projects {
+}
+
+#darkBlue {
+  background-color: #293241;
+}
+
+#lightBlue {
+  background-color: #98c1d9;
+}
+
+.noPadding {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.hoverEffect:hover {
+  transform: scale(1.05);
+  transition: 0.3;
+  cursor: pointer;
 }

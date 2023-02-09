@@ -9,13 +9,24 @@ import About from "../components/About";
 const about = () => {
   return (
     <>
-      <Container>
-        <Row>
-          <Col style={{ gap: "20px" }}>
-            <About />
-          </Col>
-        </Row>
-      </Container>
+      <Row
+        style={{
+          gap: "20px",
+          width: "100vw",
+          paddingLeft: "0 !important",
+          paddingRight: "0 !important",
+        }}
+      >
+        <Col
+          style={{
+            gap: "20px",
+            paddingLeft: "0 !important",
+            paddingRight: "0 !important",
+          }}
+        >
+          <About />
+        </Col>
+      </Row>
     </>
   );
 };

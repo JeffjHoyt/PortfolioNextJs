@@ -27,11 +27,7 @@ const projects = () => {
         crossOrigin="anonymous"
       />
       <Container>
-        <Row>
-          <Col>
-            <Projects />
-          </Col>
-        </Row>
+        <Projects />
       </Container>
     </>
   );
