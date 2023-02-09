@@ -25,16 +25,27 @@ const About = () => {
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossOrigin="anonymous"
       />
-      <Container className="aboutMe" style={{ marginTop: "100px" }}>
+      <Container
+        fluid
+        className="aboutMe"
+        style={{
+          paddingTop: "20vh",
+          width: "100% !important",
+          backgroundColor: "#ee6c4d",
+          paddingBottom: "20vh",
+        }}
+      >
         <Row>
-          <Col>
+          <Col style={{ paddingLeft: "10vw" }}>
             <img
               className="profilePicture"
               src="https://i.imgur.com/WZjCS4G.jpg"
               alt="profile picture"
+              style={{ borderRadius: "5%" }}
             />
           </Col>
           <Col className="aboutMeDescription">
+            <h1>My name a Jeff</h1>
             <h5>About me stuff and things</h5>
           </Col>
         </Row>

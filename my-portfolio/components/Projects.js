@@ -13,22 +13,32 @@ const Projects = () => {
     return (
       <Card
         as="a"
+        className="hoverEffect"
         onClick={() => window.open(projectValue.src, "_blank")}
         style={{
           paddingTop: "0",
-          width: "330px",
+          minWidth: "330px",
           overflowX: "hidden",
           overflowY: "hidden",
           backgroundColor: "white",
-          maxWidth: "330px",
+          maxWidth: "400px",
           cursor: "pointer",
+          borderRadius: "10px",
+          boxShadow:
+            "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
         }}
       >
         <Card.Img
           variant="top"
           src={projectValue.image}
           alt={projectValue.alt}
-          style={{ marginTop: "0", overflow: "hidden" }}
+          style={{
+            marginTop: "0",
+            overflow: "hidden",
+            paddingLeft: "0 !important",
+            paddingRight: "0 !important",
+            paddingTop: "10px",
+          }}
         />
         <div>
           <Card.Body style={{ backgroundColor: "white" }}>
@@ -69,9 +79,21 @@ const Projects = () => {
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossOrigin="anonymous"
       />
-      <Container>
+      <Container
+        fluid
+        styleName="projects"
+        id="projects"
+        style={{
+          backgroundColor: "#e0fbfc",
+          paddingTop: "10vh",
+          paddingBottom: "10vh",
+        }}
+      >
         <Row>
-          <Col>
+          <Col
+            className="text-center"
+            style={{ color: "black", paddingBottom: "5vh" }}
+          >
             <h1>Projects</h1>
           </Col>
         </Row>

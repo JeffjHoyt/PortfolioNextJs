@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <Container fluid>
+    <Container fluid className="">
       <Row>
         <Col>
           <Navbar
@@ -13,30 +13,40 @@ export default function App({ Component, pageProps }: AppProps) {
             variant="dark"
             className="navBar"
             style={{
+              paddingLeft: "10vw",
               position: "fixed",
               top: "0",
               width: "100%",
               zIndex: "100",
               marginBottom: "60px",
+              backgroundColor: "#293241 !important",
             }}
           >
             <Container>
               <Nav className="me-auto">
                 <Nav.Link href="">
-                  <Link href="/">Home</Link>
+                  <Link href="/" style={{ color: "white" }}>
+                    Home
+                  </Link>
                 </Nav.Link>
                 <Nav.Link href="">
                   {" "}
-                  <Link href="/about">About</Link>
+                  <Link style={{ color: "white" }} href="/about">
+                    About
+                  </Link>
                 </Nav.Link>
 
                 <Nav.Link href="">
                   {" "}
-                  <Link href="/projects">Projects</Link>
+                  <Link style={{ color: "white" }} href="/projects">
+                    Projects
+                  </Link>
                 </Nav.Link>
                 <Nav.Link href="">
                   {" "}
-                  <Link href="/contact">Contact</Link>
+                  <Link href="/contact" style={{ color: "white" }}>
+                    Contact
+                  </Link>
                 </Nav.Link>
               </Nav>
             </Container>
