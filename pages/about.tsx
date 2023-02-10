@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Inter } from "@next/font/google";
 import Script from "next/script";
 import Head from "next/head";
-import About from "../my-portfolio/components/About";
+import About from "../components/About";
 
 const about = () => {
   return (

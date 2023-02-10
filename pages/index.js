@@ -5,9 +5,9 @@ import styles from "@/styles/Home.module.css";
 import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
 import Script from "next/script";
 import Link from "next/link";
-import About from "../my-portfolio/components/About";
-import Contact from "../my-portfolio/components/Contact";
-import Projects from "../my-portfolio/components/Projects";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import Projects from "../components/Projects";
 
 const inter = Inter({ subsets: ["latin"] });
 

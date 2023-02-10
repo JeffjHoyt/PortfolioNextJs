@@ -5,7 +5,6 @@ import Head from "next/head";
 import Script from "next/script";
 import Image from "next/image";
 import { useEffect } from "react";
-import { HydrationProvider, Server, Client } from "react-hydration-provider";
 
 const About = () => {
   return (

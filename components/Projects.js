@@ -4,8 +4,6 @@ import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
 import data from "./ProjectList.json";
-import useState from "react";
-import { HydrationProvider, Server, Client } from "react-hydration-provider";
 
 const Projects = () => {
   const projectData = data.projects;
