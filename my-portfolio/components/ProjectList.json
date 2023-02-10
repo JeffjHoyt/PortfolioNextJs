@@ -24,21 +24,21 @@
     },
     {
       "name": "ChoreDoor",
-      "id": "3",
+      "id": "4",
       "description": "This project was built using vanilla javascript. It uses some basic logic that randomizes the door that should not be chosen with each new game.",
       "image": "https://i.imgur.com/0HZu9qf.jpg",
       "src": "https://jeffjhoyt.github.io/projects/choredoor/index.html"
     },
     {
       "name": "Order summary",
-      "id": "3",
+      "id": "5",
       "description": "Frontend mentor challenge that required me to take static images and translate those designs into interactable UI elements.",
       "image": "https://i.imgur.com/uvm4mRo.jpg",
       "src": "https://jeffjhoyt.github.io/projects/order-summary/index.html"
     },
     {
       "name": "Budget summary",
-      "id": "3",
+      "id": "6",
       "description": "Frontend mentor challenge that required me to take static images and translate those designs into interactable UI elements.",
       "image": "https://i.imgur.com/DPCTiK4.jpg",
       "src": "https://jeffjhoyt.github.io/projects/expenses-chart-component-main/pj2.html"

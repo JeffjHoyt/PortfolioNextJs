@@ -14,6 +14,7 @@ const Projects = () => {
       <Card
         as="a"
         className="hoverEffect"
+        key={projectValue.id}
         onClick={() => window.open(projectValue.src, "_blank")}
         style={{
           paddingTop: "0",
