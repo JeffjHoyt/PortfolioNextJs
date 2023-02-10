@@ -37,7 +37,7 @@ const About = () => {
       >
         <Row>
           <Col style={{ paddingLeft: "10vw" }}>
-            <img
+            <Image
               className="profilePicture"
               src="https://i.imgur.com/WZjCS4G.jpg"
               alt="profile picture"
