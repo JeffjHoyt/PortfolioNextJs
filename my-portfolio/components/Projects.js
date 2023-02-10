@@ -4,6 +4,8 @@ import Link from "next/link";
 import Head from "next/head";
 import Script from "next/script";
 import data from "./ProjectList.json";
+import useState from "react";
+import { HydrationProvider, Server, Client } from "react-hydration-provider";
 
 const Projects = () => {
   const projectData = data.projects;
@@ -41,23 +43,21 @@ const Projects = () => {
             paddingTop: "10px",
           }}
         ></Card.Img>
-        <div>
-          <Card.Body style={{ backgroundColor: "white" }}>
-            <Card.Title style={{ backgroundColor: "white", color: "black" }}>
-              {projectValue.name}
-            </Card.Title>
-            {console.log(projectValue.description)}
-            <Card.Text style={{ backgroundColor: "white", color: "black" }}>
-              {projectValue.description}
-            </Card.Text>
-            <Card.Link
-              style={{ backgroundColor: "white" }}
-              href={projectValue.src}
-            >
-              View Project
-            </Card.Link>
-          </Card.Body>
-        </div>
+        <Card.Body style={{ backgroundColor: "white" }}>
+          <Card.Title style={{ backgroundColor: "white", color: "black" }}>
+            {projectValue.name}
+          </Card.Title>
+          {console.log(projectValue.description)}
+          <Card.Text style={{ backgroundColor: "white", color: "black" }}>
+            {projectValue.description}
+          </Card.Text>
+          <Card.Link
+            style={{ backgroundColor: "white" }}
+            href={projectValue.src}
+          >
+            View Project
+          </Card.Link>
+        </Card.Body>
       </Card>
     );
   });
@@ -95,7 +95,9 @@ const Projects = () => {
             className="text-center"
             style={{ color: "black", paddingBottom: "5vh" }}
           >
-            <h1>Projects</h1>
+            <div>
+              <h1>Projects</h1>
+            </div>
           </Col>
         </Row>
         <Row>
