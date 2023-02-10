@@ -40,7 +40,7 @@ const Projects = () => {
             paddingRight: "0 !important",
             paddingTop: "10px",
           }}
-        />
+        ></Card.Img>
         <div>
           <Card.Body style={{ backgroundColor: "white" }}>
             <Card.Title style={{ backgroundColor: "white", color: "black" }}>
