@@ -23,18 +23,50 @@ module.exports = {
   assetPrefix: !debug
     ? "https://anotherplanet-io.github.io/Next-React-Components/"
     : "",
-  /* webpack: (config, { dev }) => {
-    // Perform customizations to webpack config
-    // console.log('webpack');
-    // console.log(config.module.rules, dev);
-    // Important: return the modified config
-    return config
-  },
-  webpackDevMiddleware: (config) => {
-    // Perform customizations to webpack dev middleware config
-    // console.log('webpackDevMiddleware');
-    // console.log(config);
-    // Important: return the modified config
-    return config
-  }, */
 };
+
+// create webpack config
+const path = require("path");
+const withPlugins = require("next-compose-plugins");
+const withImages = require("next-images");
+const withFonts = require("next-fonts");
+const withCSS = require("@zeit/next-css");
+const withSass = require("@zeit/next-sass");
+const withBundleAnalyzer = require("@next/bundle-analyzer")({
+  enabled: process.env.ANALYZE === "true",
+});
+const withMDX = require("@next/mdx")({
+  extension: /\.mdx?$/,
+});
+
+const nextConfig = {
+  pageExtensions: ["js", "jsx", "mdx"],
+  webpack: (config, { isServer }) => {
+    // Fixes npm packages that depend on `fs` module
+    if (!isServer) {
+      config.node = {
+        fs: "empty",
+      };
+    }
+
+    // Fixes npm packages that depend on `fs` module
+    config.module.rules.push({
+      test: /\.md$/,
+      use: "raw-loader",
+    });
+
+    return config;
+  },
+};
+
+module.exports = withPlugins(
+  [
+    [withMDX],
+    [withImages],
+    [withFonts],
+    [withCSS],
+    [withSass],
+    [withBundleAnalyzer],
+  ],
+  nextConfig
+);
