@@ -9,6 +9,14 @@
       "src": "https://jeffjhoyt.github.io/jammming/"
     },
     {
+      "name": "Weather Services",
+      "id": "14",
+      "description": "This project was built with React.js and utilized the OpenWeatherMap API. It allows users to search for weather information by zip code to get todays weather along with a 5 day forecast.",
+      "image": "https://i.imgur.com/K6rckfH.png",
+      "alt": "jammin project",
+      "src": "https://jeffjhoyt.github.io/jammming/"
+    },
+    {
       "name": "Google clone",
       "id": "2",
       "description": "In this project, I took on the challenge of recreating Google's homepage with HTML, CSS, and Javascript.",
