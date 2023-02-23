@@ -14,7 +14,7 @@
       "description": "This project was built with React.js and utilized the OpenWeatherMap API. It allows users to search for weather information by zip code to get todays weather along with a 5 day forecast.",
       "image": "https://i.imgur.com/J2v0Sxh.jpg",
       "alt": "jammin project",
-      "src": "https://jeffjhoyt.github.io/jammming/"
+      "src": "https://jeffjhoyt.github.io/weather-services/"
     },
     {
       "name": "Google clone",
