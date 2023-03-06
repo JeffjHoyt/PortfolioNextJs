@@ -38,7 +38,7 @@ const Projects = () => {
             overflow: "hidden",
             paddingLeft: "0 !important",
             paddingRight: "0 !important",
-            paddingTop: "10px",
+            paddingTop: "0px",
           }}
         ></Card.Img>
         <Card.Body style={{ backgroundColor: "white" }}>
