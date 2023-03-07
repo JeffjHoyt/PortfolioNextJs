@@ -48,6 +48,12 @@ const Projects = () => {
           {console.log(projectValue.description)}
           <Card.Text style={{ backgroundColor: "white", color: "black" }}>
             {projectValue.description}
+            <br></br>
+            <br></br>
+            <p style={{ fontWeight: "bold" }}>
+              <span style={{ fontSize: "22px" }}>Tools: </span>
+              {projectValue.tools}
+            </p>
           </Card.Text>
           <Card.Link
             style={{ backgroundColor: "white" }}

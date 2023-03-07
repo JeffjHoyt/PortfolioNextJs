@@ -6,7 +6,8 @@
       "description": "This project was built using React.js. Jammin is a Spotify like app that allows users to search for music, preview songs, add tracks to their playlist, and save them to their own Spotify account.",
       "image": "https://i.imgur.com/CsXmFaf.jpg",
       "alt": "jammin project",
-      "src": "https://jeffjhoyt.github.io/jammming/"
+      "src": "https://jeffjhoyt.github.io/jammming/",
+      "tools": ["React.js", ", Spotify API", ", Javascript", ", CSS", ", HTML"]
     },
     {
       "name": "Weather Services",
