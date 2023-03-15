@@ -3,6 +3,8 @@ import type { AppProps } from "next/app";
 import { Container, Row, Col, Nav, Navbar } from "react-bootstrap";
 import Link from "next/link";
 
+// note
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <Container fluid className="">
