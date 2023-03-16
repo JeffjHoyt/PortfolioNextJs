@@ -8,6 +8,7 @@ import Link from "next/link";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Projects from "../components/Projects";
+import Resume from "../components/Resume";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -35,6 +36,7 @@ export default function Home() {
       <Container fluid className="noPadding">
         <About />
         <Projects />
+        <Resume />
         <Contact />
       </Container>
     </>
