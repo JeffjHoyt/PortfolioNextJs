@@ -87,7 +87,7 @@ const Resume = () => {
               <span style={{ fontWeight: "bold" }}>
                 Lead E-commerce Consultant
               </span>{" "}
-              | Ourisman Automotive | 05/2011 - 04/2012
+              | Ourisman Automotive | 05/2011 - 04/2012.
             </h4>
             <ul>
               <li></li>
