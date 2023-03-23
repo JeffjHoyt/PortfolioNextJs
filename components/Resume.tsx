@@ -43,6 +43,12 @@ const Resume = () => {
             className="aboutMeDescription text-center"
             style={{ marginBottom: "20px" }}
           >
+            <h1>Technical Skills</h1>
+            <p>
+              Javascript, HTML, CSS, Bootstrap, Responsive web design, API,
+              APIs, Vanilla Javascript, ReactJS, Customer service, Adobe XD, Web
+              development, git, github, Sitecore, Keylime
+            </p>
             <h1>Experience</h1>
           </Col>
         </Row>
@@ -53,7 +59,7 @@ const Resume = () => {
               Yonder | 09/2022 - Current
             </h4>
             <ul>
-              <li>Developing a new web application for the company</li>
+              <li></li>
             </ul>
           </Col>
         </Row>
@@ -64,7 +70,16 @@ const Resume = () => {
               Ourisman Automotive | 11/2017 - 1/2022
             </h4>
             <ul>
-              <li></li>
+              <li>
+                Exceeded company goals by 33% by maintaining a $2,000 PVR along
+                with company high on customer satisfaction index by maintaining
+                a score above 95% from 2017 to 2020
+              </li>
+              <li>
+                Tasked with finalizing deals, organizing customers within a
+                database / CRM software, and using problem solving skills to
+                ensure clean cash flow for internal stakeholders.
+              </li>
             </ul>
           </Col>
         </Row>
@@ -77,7 +92,34 @@ const Resume = () => {
               | Ourisman Automotive | 04/2012 - 11/2017
             </h4>
             <ul>
-              <li></li>
+              <li>
+                Led my dealership to be the #1 Kia dealership in the region from
+                April 2012 to November 2017.
+              </li>
+              <li>
+                Tasked with meeting organizational goals within monthly and
+                yearly deadlines along with hiring, training, and mentoring new
+                sales consultants.
+              </li>
+              <li>
+                Implemented a sales mentoring program which increased our saless
+                from an average of 40 to 100 new car monthly sales.
+              </li>
+              <li>
+                Utilized web analytics to identify inefficiencies within our
+                online sales process which led to an increase of our e-commerce
+                closing percentage from 8% to 15%.
+              </li>
+              <li>
+                Additionally tasked with creating marketing content (both
+                Digital mock-ups and translating designs into usable code) for
+                website banners/advertisements as well as for digital marketing
+                campaigns
+              </li>
+              <li>
+                Communicated with stakeholders to turn ideas into digital
+                marketing content
+              </li>
             </ul>
           </Col>
         </Row>
@@ -90,7 +132,24 @@ const Resume = () => {
               | Ourisman Automotive | 05/2011 - 04/2012.
             </h4>
             <ul>
-              <li></li>
+              <li>
+                Improved online sales by reinforcing the use of technology with
+                the use of CRM tools which led to a personal closing rate of 20%
+                (exceeding company goals by 100%)
+              </li>
+              <li>
+                Achieved "Salesman of the year" award in my first year on the
+                position
+              </li>
+              <li>
+                Tasked with handling a portion of our e-commerce department by
+                handling individual customer requests.
+              </li>
+              <li>
+                Incorporated digital media content in email campaigns with
+                unique landing pages in order to successfully monitor and
+                improve digital content and website conversaion rates.
+              </li>
             </ul>
           </Col>
         </Row>
