@@ -27,11 +27,31 @@ const Contact = () => {
       />
       <Container
         fluid
-        style={{ paddingTop: "100px", backgroundColor: "#ee6c4d" }}
+        style={{
+          paddingTop: "100px",
+          backgroundColor: "#FFC100",
+          paddingBottom: "40px",
+        }}
       >
         <Row>
-          <Col>
+          <Col styleName="text-center">
             <h1>Contact me</h1>
+          </Col>
+        </Row>
+        <Row>
+          <Col style={{ marginLeft: "25%" }}>
+            <img
+              src="https://i.imgur.com/4rGthXG.png"
+              alt="linkedin link"
+              style={{ height: "100px" }}
+            />
+          </Col>
+          <Col>
+            <img
+              src="https://i.imgur.com/MiOwWEL.png"
+              alt="email link"
+              style={{ height: "100px" }}
+            />
           </Col>
         </Row>
       </Container>

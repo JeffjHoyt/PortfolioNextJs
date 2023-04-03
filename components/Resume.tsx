@@ -34,7 +34,8 @@ const Resume = () => {
           paddingRight: "10px",
           paddingLeft: "10px",
           width: "100% !important",
-          backgroundColor: "#ee6c4d",
+          backgroundColor: "#FFFFFF",
+          color: "black",
           paddingBottom: "20vh",
         }}
       >
@@ -44,11 +45,136 @@ const Resume = () => {
             style={{ marginBottom: "20px" }}
           >
             <h1>Technical Skills</h1>
-            <p>
-              Javascript, HTML, CSS, Bootstrap, Responsive web design, API,
-              APIs, Vanilla Javascript, ReactJS, Customer service, Adobe XD, Web
-              development, git, github, Sitecore, Keylime
-            </p>
+          </Col>
+          <Row styleName="d-flex space-evenly" style={{ gap: "10px" }}>
+            <Col>
+              <img
+                src="https://i.imgur.com/dZh40Fq.jpg"
+                alt="Adobe xd icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/IwTc6MT.jpg"
+                alt="React icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/fjo9SQZ.jpg"
+                alt="API and API's icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/xQPDfpc.jpg"
+                alt="bootstrap icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/48ZPgH9.jpg"
+                alt="css icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/axc620c.jpg"
+                alt="github icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/e2aOBGM.jpg"
+                alt="git icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/FUHuYfV.jpg"
+                alt="html icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/9wXoHCE.jpg"
+                alt="javascript icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/AiEVaAN.jpg"
+                alt="responsive web design icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+            <Col>
+              <img
+                src="https://i.imgur.com/ZVwkIy6.jpg"
+                alt="sitecore icon"
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "5px",
+                }}
+              ></img>
+            </Col>
+          </Row>
+        </Row>
+        <Row>
+          <Col
+            className="aboutMeDescription text-center"
+            style={{ marginBottom: "20px", marginTop: "100px" }}
+          >
             <h1>Experience</h1>
           </Col>
         </Row>
