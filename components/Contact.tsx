@@ -6,6 +6,7 @@ import Script from "next/script";
 import { useEffect } from "react";
 
 const Contact = () => {
+  //
   return (
     <>
       <Head>
@@ -40,18 +41,24 @@ const Contact = () => {
         </Row>
         <Row>
           <Col style={{ marginLeft: "25%" }}>
-            <img
-              src="https://i.imgur.com/4rGthXG.png"
-              alt="linkedin link"
-              style={{ height: "100px" }}
-            />
+            <a href="https://www.linkedin.com/in/jeff-hoyt/" target="_blank">
+              <img
+                src="https://i.imgur.com/4rGthXG.png"
+                alt="linkedin link"
+                style={{ height: "100px", cursor: "pointer" }}
+                className="hoverEffect"
+              />
+            </a>
           </Col>
           <Col>
-            <img
-              src="https://i.imgur.com/MiOwWEL.png"
-              alt="email link"
-              style={{ height: "100px" }}
-            />
+            <a href="mailto:jeffjhoyt@gmail.com">
+              <img
+                src="https://i.imgur.com/MiOwWEL.png"
+                alt="email link"
+                style={{ height: "100px" }}
+                className="hoverEffect"
+              />
+            </a>
           </Col>
         </Row>
       </Container>

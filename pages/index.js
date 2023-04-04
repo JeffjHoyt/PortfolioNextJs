@@ -34,10 +34,26 @@ export default function Home() {
       />
 
       <Container fluid className="noPadding">
-        <About />
-        <Projects />
-        <Resume />
-        <Contact />
+        <Row>
+          <Col id="about">
+            <About />
+          </Col>
+        </Row>
+        <Row>
+          <Col id="projects">
+            <Projects />
+          </Col>
+        </Row>
+        <Row>
+          <Col id="resume">
+            <Resume />
+          </Col>
+        </Row>
+        <Row>
+          <Col id="contact">
+            <Contact />
+          </Col>
+        </Row>
       </Container>
     </>
   );

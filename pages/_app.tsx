@@ -27,26 +27,26 @@ export default function App({ Component, pageProps }: AppProps) {
             <Container>
               <Nav className="me-auto">
                 <Nav.Link href="">
-                  <Link href="/" style={{ color: "white" }}>
+                  <Link href="#about" style={{ color: "white" }}>
                     Home
                   </Link>
                 </Nav.Link>
                 <Nav.Link href="">
                   {" "}
-                  <Link style={{ color: "white" }} href="/about">
+                  <Link style={{ color: "white" }} href="#resume">
                     About
                   </Link>
                 </Nav.Link>
 
                 <Nav.Link href="">
                   {" "}
-                  <Link style={{ color: "white" }} href="/projects">
+                  <Link style={{ color: "white" }} href="#projects">
                     Projects
                   </Link>
                 </Nav.Link>
                 <Nav.Link href="">
                   {" "}
-                  <Link href="/contact" style={{ color: "white" }}>
+                  <Link href="#contact" style={{ color: "white" }}>
                     Contact
                   </Link>
                 </Nav.Link>
