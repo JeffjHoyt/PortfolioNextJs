@@ -89,7 +89,7 @@ const Projects = () => {
         styleName="projects"
         id="projects"
         style={{
-          backgroundColor: "#4B8F8C",
+          backgroundColor: "#3E92CC",
           paddingTop: "10vh",
           paddingBottom: "10vh",
         }}

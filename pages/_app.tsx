@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
               width: "100%",
               zIndex: "100",
               marginBottom: "60px",
-              backgroundColor: "#293241 !important",
+              backgroundColor: "#2C3D55 !important",
             }}
           >
             <Container>

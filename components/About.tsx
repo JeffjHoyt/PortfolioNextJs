@@ -32,7 +32,7 @@ const About = () => {
         style={{
           paddingTop: "20vh",
           width: "100% !important",
-          backgroundColor: "#ee6c4d",
+          backgroundColor: "#2C3D55",
           paddingBottom: "20vh",
         }}
       >

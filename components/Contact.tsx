@@ -30,12 +30,12 @@ const Contact = () => {
         fluid
         style={{
           paddingTop: "100px",
-          backgroundColor: "#FFC100",
+          backgroundColor: "#EE6C4D",
           paddingBottom: "40px",
         }}
       >
-        <Row>
-          <Col styleName="text-center">
+        <Row styleName="d-flex text-center">
+          <Col styleName="d-flex text-center">
             <h1>Contact me</h1>
           </Col>
         </Row>
