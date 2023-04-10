@@ -18,6 +18,10 @@ export default function Home() {
       <Head>
         <title>Home</title>
         <meta name="Home" content="Jeff Hoyt Portfolio" />
+        <meta
+          name="image"
+          content="https://now.blueyonder.com/rs/366-TWM-779/images/HCLTech72.jpg"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
         <link
