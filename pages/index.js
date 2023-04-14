@@ -17,6 +17,37 @@ export default function Home() {
     <>
       <Head>
         <title>Home</title>
+        <title>Home</title>
+        <meta name="description" content="Jeff Hoyt Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="og:title" content="Jeff Hoyt Portfolio" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@jeffhoyt" />
+        <meta name="twitter:creator" content="@jeffhoyt" />
+        <meta name="twitter:title" content="Jeff Hoyt Portfolio" />
+        <meta name="twitter:description" content="Jeff Hoyt Portfolio" />
+        <meta name="twitter:image" content="https://i.imgur.com/WZjCS4G.jpg" />
+        <meta
+          property="og:url"
+          content="https://jeffjhoyt.github.io/PortfolioNextJs/"
+        />
+        <meta property="og:title" content="Jeff Hoyt Portfolio" />
+        <meta property="og:description" content="Jeff Hoyt Portfolio" />
+        <meta property="og:image" content="https://i.imgur.com/WZjCS4G.jpg" />
+        <meta
+          property="og:image:secure_url"
+          content="https://i.imgur.com/WZjCS4G.jpg"
+        />
+        <meta property="og:image:alt" content="Jeff Hoyt Portfolio" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="Jeff Hoyt Portfolio" />
+        <meta property="og:locale" content="en_US" />
+        <meta name="theme-color" content="#000000" />
+        <link rel="apple-touch-icon" href="/logo192.png" />
+        <link rel="manifest" href="/manifest.json" />
         <meta name="Home" content="Jeff Hoyt Portfolio" />
         <meta
           name="image"
