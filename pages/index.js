@@ -38,6 +38,7 @@ export default function Home() {
           property="og:image:secure_url"
           content="https://i.imgur.com/WZjCS4G.jpg"
         />
+        // twitter meta data not working
         <meta property="og:image:alt" content="Jeff Hoyt Portfolio" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:image:width" content="1200" />
