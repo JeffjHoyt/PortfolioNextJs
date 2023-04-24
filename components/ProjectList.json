@@ -33,6 +33,14 @@
       "tools": ["HTML", ", CSS", ", Javascript"]
     },
     {
+      "name": "Messaging app",
+      "id": "7",
+      "description": "This project was built purely with react js. It allows the user to send text messages back. ",
+      "image": "https://i.imgur.com/xwGZttE.png",
+      "src": "https://jeffjhoyt.github.io/Messaging/",
+      "tools": ["React, CSS"]
+    },
+    {
       "name": "Task generator",
       "id": "3",
       "description": "This was a project that myself and 5 other developers designed and coded together. It allows users to add to-do lists and tasks with specific information. ",
